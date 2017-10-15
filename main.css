@@ -9,3 +9,7 @@ html, body {
 p {
   margin: 0;
 }
+
+.restart {
+  display: none;
+}

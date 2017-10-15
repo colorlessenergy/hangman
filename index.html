@@ -6,10 +6,19 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <p id="amount"></p>
-    <pre id="spaces"></pre>
-    <input maxlength="1" type="text" id="guess">
-    <button type="button" id="submit">submit</button>
+    <section id="gameboard">
+      <pre id="draw-char"></pre>
+      <p id="amount"></p>
+      <p class="health">amount of health: 3</p>
+      <pre id="spaces"></pre>
+      <input maxlength="1" type="text" id="guess">
+      <button type="button" id="submit">submit</button>
+    </section>
+    <section class="restart" id="restart">
+      <h2>gameover the word was: </h2>
+      <p>Pressed the button below to play again</p>
+      <button type="button" id="restartbutton">restart</button>
+    </section>
     <script src="main.js"></script>
   </body>
 </html>

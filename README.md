@@ -1,7 +1,7 @@
-#hangman game
+# hangman game
 
 
-_made with_
+# _made with_
 
 *_html_*
 
